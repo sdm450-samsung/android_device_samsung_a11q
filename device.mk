@@ -8,6 +8,7 @@
 $(call inherit-product, device/samsung/sdm450-common/common.mk)
 
 # Boot Animation
+TARGET_BOOTANIMATION_HALF_RES := true
 TARGET_SCREEN_HEIGHT := 1560
 TARGET_SCREEN_WIDTH := 720
 
