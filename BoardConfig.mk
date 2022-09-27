@@ -9,5 +9,8 @@ include device/samsung/sdm450-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/samsung/a11q
 
+# Display
+TARGET_SCREEN_DENSITY := 280
+
 # Kernel
 TARGET_KERNEL_CONFIG := lineage_a11q_defconfig
